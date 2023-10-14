@@ -85,11 +85,14 @@
 
   .information {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 40px;
     font-weight: bolder;
     color: #1F2937;
+  }
+
+  .information-container {
+    padding: 100px 0px;
   }
 
   .box {
@@ -123,4 +126,24 @@
     width: 150px;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.507);
+  }
+
+  .quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 150px;
+  }
+
+  .quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+  }
+
+  .author {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 1950px;
   }
