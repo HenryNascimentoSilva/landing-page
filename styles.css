@@ -1,26 +1,35 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .header-container,
+.menu-container,
 .left,
 .right,
-.main {
+.main,
+.menu-main,
+.menu-left,
+.menu-right,
+.image {
   display: flex;
+  background-color: rgb(12, 25, 59);
 }
 
 .left,
-.right {
-  width: 20vw;
-  background-color: rgba(0, 0, 0, 0.801);
+.right,
+.menu-left,
+.menu-right {
+  width: 20%;
 }
 
 .main{
-  width: 60vw;
-  background-color: rgba(0, 0, 0, 0.801);
+  width: 60%;
   justify-content: space-between;
   color: rgba(250, 250, 250, 0.842);
+  flex-wrap: wrap;
 }
 
 a {
@@ -29,3 +38,24 @@ a {
   color: rgba(250, 250, 250, 0.842);
 }
 
+.menu-main {
+  width: 30%;
+  color: rgba(250, 250, 250, 0.842);
+  flex-wrap: wrap;
+}
+
+
+.image {
+  width: 30%;
+  justify-content: flex-end;
+}
+
+button {
+  background-color: rgb(65, 65, 255);
+  color: white;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 6px 12px;
+  border: none;
+}
